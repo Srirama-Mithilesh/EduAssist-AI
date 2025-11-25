@@ -1,4 +1,4 @@
-# 🎓 EduAssist AI - Educational Research Assistant Agent
+# EduAssist AI - Educational Research Assistant Agent
 
 > A multi-agent AI system designed to revolutionize student learning through reliable, verified, and adaptive educational assistance.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [The Problem](#the-problem)
@@ -18,15 +18,12 @@
 - [Usage](#usage)
 - [Technical Implementation](#technical-implementation)
 - [Project Structure](#project-structure)
-- [Demo](#demo)
-- [Evaluation Criteria](#evaluation-criteria)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **EduAssist AI** is a sophisticated multi-agent system that helps students get accurate, verified, and contextually relevant answers to their academic questions. Unlike traditional chatbots, EduAssist AI combines:
 
@@ -37,7 +34,7 @@
 
 ---
 
-## 🔍 The Problem
+## The Problem
 
 Students today face several challenges when seeking educational help:
 
@@ -69,16 +66,16 @@ An **agent-based approach** uniquely solves student learning problems because:
 
 ### Core Capabilities:
 
-✅ **Real-time Research** with verified sources  
-✅ **Multi-Source Verification** across credible sources  
-✅ **Adaptive Learning** adjusted to student level  
-✅ **Session Memory** remembering previous topics  
-✅ **Source Transparency** with citations  
-✅ **Progress Tracking** monitoring learning over time
+**Real-time Research** with verified sources  
+**Multi-Source Verification** across credible sources  
+**Adaptive Learning** adjusted to student level  
+**Session Memory** remembering previous topics  
+**Source Transparency** with citations  
+**Progress Tracking** monitoring learning over time
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -146,7 +143,7 @@ An **agent-based approach** uniquely solves student learning problems because:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. Multi-Agent Orchestration
 - **Sequential execution** for dependent tasks
@@ -186,7 +183,7 @@ An **agent-based approach** uniquely solves student learning problems because:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/eduassist-ai.git
+git clone https://github.com/Srirama-Mithilesh/EduAssist-AI.git
 cd eduassist-ai
 ```
 
@@ -301,10 +298,10 @@ asyncio.run(main())
 ### Design Decisions
 
 **Memory Storage**: For this hackathon, we use local JSON file storage for the Memory Bank. This approach:
-- ✅ Clearly demonstrates the Memory Bank concept
-- ✅ Works perfectly for demo and evaluation
-- ✅ Allows judges to inspect stored profiles easily
-- ✅ Keeps implementation focused on agent architecture
+- Clearly demonstrates the Memory Bank concept
+- Works perfectly for demo and evaluation
+- Allows judges to inspect stored profiles easily
+- Keeps implementation focused on agent architecture
 
 **Production Note**: For production deployment, this would be replaced with:
 - Cloud database (Firestore, MongoDB, PostgreSQL)
@@ -313,32 +310,32 @@ asyncio.run(main())
 
 ### Key Concepts Demonstrated
 
-✅ **Multi-agent System** (5 pts)
+**Multi-agent System**
 - Coordinator orchestrates 3 specialized agents
 - Sequential and parallel execution strategies
 - Dynamic agent routing based on query analysis
 
-✅ **Tools Integration** (5 pts)
+**Tools Integration**
 - Google Search for web research
 - Custom source credibility scoring
 - Fact verification tools
 
-✅ **Sessions & Memory** (5 pts)
+**Sessions & Memory**
 - InMemorySessionService for short-term state
 - Memory Bank for long-term profiles
 - Context compaction for efficiency
 
-✅ **Context Engineering** (5 pts)
+**Context Engineering**
 - Dynamic prompt construction
 - Token limit management
 - Relevant history retrieval
 
-✅ **Observability** (5 pts)
+**Observability**
 - Structured logging across all agents
 - Agent action tracing
 - Performance metrics
 
-✅ **Gemini Usage** (Bonus 5 pts)
+**Gemini Usage**
 - All agents powered by Gemini 2.0 Flash
 
 ---
@@ -380,63 +377,6 @@ touch memory/__init__.py
 touch utils/__init__.py
 ```
 
----
-
-## 🎬 Demo
-
-### Video Demo (3 minutes)
-
-Watch our demo showcasing:
-1. **Problem Statement**: Student challenges with educational AI
-2. **Why Agents**: How agents uniquely solve these problems
-3. **Architecture**: Visual walkthrough of the system
-4. **Live Demo**: Real interaction showing all features
-5. **Impact**: Before/after comparison
-
-[🎥 Watch Demo Video](#) *(YouTube link)*
-
-### Screenshots
-
-*(Add screenshots of the system in action)*
-
----
-
-## 📊 Evaluation Criteria
-
-### Category 1: The Pitch (30 points)
-
-✅ **Core Concept & Value** (15 pts)
-- Clear problem affecting millions of students
-- Agent-based solution with clear innovation
-- Meaningful value proposition
-
-✅ **Writeup** (15 pts)
-- Comprehensive documentation
-- Architecture clearly explained
-- Journey and impact articulated
-
-### Category 2: Implementation (70 points)
-
-✅ **Technical Implementation** (50 pts)
-- 5+ key concepts demonstrated
-- Quality code with extensive comments
-- Meaningful use of agents
-
-✅ **Documentation** (20 pts)
-- Complete README with setup instructions
-- Architecture diagrams
-- Usage examples
-
-### Bonus Points (20 points)
-
-✅ **Gemini Usage** (5 pts) - All agents use Gemini 2.0 Flash  
-✅ **Agent Deployment** (5 pts) - Ready for Agent Engine  
-✅ **Video Submission** (10 pts) - 3-minute showcase video
-
-**Total Potential Score: 100 points**
-
----
-
 ## 🔮 Future Enhancements
 
 ### Phase 2 Features:
@@ -468,36 +408,20 @@ This is a capstone project submission, but feedback and suggestions are welcome!
 
 ---
 
-## 📄 License
-
-This project is created for educational purposes as part of the Google AI Agents Intensive Course.
-
----
-
 ## 🙏 Acknowledgments
 
 - **Google & Kaggle** for the AI Agents Intensive Course
 - **Gemini Team** for providing powerful AI capabilities
 - **All students** who struggle with educational AI and inspired this project
-
----
-
-## 📞 Contact
-
-**Developer:** [Your Name]  
-**Email:** your.email@example.com  
-**GitHub:** [@yourusername](https://github.com/yourusername)  
-**LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)
-
+- **Delegation** AI assistance was used during the development of this project.
 ---
 
 ## 🏆 Competition Submission
 
 **Track:** Agents for Good (Education)  
 **Submission Date:** December 1, 2025  
-**GitHub:** [Repository Link]  
-**Video:** [YouTube Link]  
-**Kaggle Profile:** [Your Profile]
+**GitHub:** [[Repository Link]](https://github.com/Srirama-Mithilesh/EduAssist-AI.git) 
+**Kaggle Profile:** [[Your Profile]](https://www.kaggle.com/sriramamithilesh)
 
 ---
 
