@@ -419,7 +419,7 @@ This is a capstone project submission, but feedback and suggestions are welcome!
 ## 🏆 Competition Submission
 
 **Track:** Agents for Good (Education) 
-**GitHub:** [[Srirama-Mithilesh/EduAssist-AI]](https://github.com/Srirama-Mithilesh/EduAssist-AI.git) 
+**GitHub:** [[Srirama-Mithilesh]](https://github.com/Srirama-Mithilesh) 
 **Kaggle Profile:** [[sriramamithilesh]](https://www.kaggle.com/sriramamithilesh)
 
 ---
