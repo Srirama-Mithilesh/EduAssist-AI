@@ -1,0 +1,28 @@
+# EduAssist AI - Requirements
+# Python 3.9+ required
+
+# Core AI/ML
+google-genai>=0.2.0
+
+# Async support
+asyncio
+
+# Data handling
+python-dateutil>=2.8.2
+
+# Optional: For production deployments
+# gunicorn>=21.2.0
+# uvicorn>=0.24.0
+
+# Optional: For enhanced tokenization
+# tiktoken>=0.5.0
+
+# Optional: For vector storage (advanced memory)
+# chromadb>=0.4.0
+# pinecone-client>=2.2.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.1.0
