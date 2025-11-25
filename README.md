@@ -18,11 +18,8 @@
 - [Usage](#usage)
 - [Technical Implementation](#technical-implementation)
 - [Project Structure](#project-structure)
-- [Demo](#demo)
-- [Evaluation Criteria](#evaluation-criteria)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
